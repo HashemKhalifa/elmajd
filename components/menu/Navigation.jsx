@@ -1,4 +1,5 @@
 import { Fragment } from 'react'
+import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import {
   BookmarkAltIcon,
@@ -196,18 +197,18 @@ export const Navigation = () => {
                       </>
                     )}
                   </Popover>
-                  <a
+                  <Link
                       href="./certifications"
                       className="text-base font-medium text-gray-500 hover:text-gray-900"
                   >
                     Certifications
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="./contact-us"
                     className="text-base font-medium text-gray-500 hover:text-gray-900"
                   >
                     Contact Us
-                  </a>
+                  </Link>
 
                 </Popover.Group>
               </div>
@@ -226,7 +227,7 @@ export const Navigation = () => {
               <Popover.Panel
                 focus
                 static
-                className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+                className="absolute z-50  top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
               >
                 <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                   <div className="pt-5 pb-6 px-5">
@@ -247,47 +248,31 @@ export const Navigation = () => {
                     </div>
                     <div className="mt-6">
                       <nav className="grid gap-6">
-                        {about_us.map((item) => (
-                          <a
-                            key={item.name}
-                            href={item.href}
-                            className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
-                          >
-                            <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white">
-                              <item.icon
-                                className="h-6 w-6"
-                                aria-hidden="true"
-                              />
-                            </div>
-                            <div className="ml-4 text-base font-medium text-gray-900">
-                              {item.name}
-                            </div>
-                          </a>
-                        ))}
+                        <a href="./"  className="ml-4 text-base text-center font-medium text-gray-900 divide-y-2 divide-dashed md:divide-solid">Home</a>
                       </nav>
                     </div>
                   </div>
                   <div className="py-6 px-5">
                     <div className="grid grid-cols-2 gap-4">
                       <a
-                        href="#"
+                        href="./products"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
-                        Pricing
+                        Products
                       </a>
 
                       <a
-                        href="#"
+                          href="./certifications"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
-                        Docs
+                        Certifications
                       </a>
 
                       <a
-                        href="#"
+                          href="./contact-us"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
-                        Enterprise
+                        Contact Us
                       </a>
                       {about_us.map((item) => (
                         <a
@@ -298,23 +283,6 @@ export const Navigation = () => {
                           {item.name}
                         </a>
                       ))}
-                    </div>
-                    <div className="mt-6">
-                      <a
-                        href="#"
-                        className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-                      >
-                        Sign up
-                      </a>
-                      <p className="mt-6 text-center text-base font-medium text-gray-500">
-                        Existing customer?{' '}
-                        <a
-                          href="#"
-                          className="text-indigo-600 hover:text-indigo-500"
-                        >
-                          Sign in
-                        </a>
-                      </p>
                     </div>
                   </div>
                 </div>
