@@ -218,6 +218,7 @@ const ContactUs = () => {
                       <a
                         className="text-purple-200 hover:text-purple-100"
                         target="_blank"
+                        rel="noreferrer"
                         href="https://www.facebook.com/profile.php?id=100069523154784"
                       >
                         <span className="sr-only">Facebook</span>

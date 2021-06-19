@@ -1,4 +1,13 @@
 {
   "extends": "next",
-  "root": true
+  "root": true,
+  "rules": {
+
+
+    // disable rules from base configurations
+    "react/prop-types": "off",
+    "react/display-name": "off",
+    "import/no-anonymous-default-export": "off",
+    "react/no-children-prop": "off"
+  }
 }

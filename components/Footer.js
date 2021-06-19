@@ -30,7 +30,7 @@ const navigation = [
   },
 ]
 
-export default function Footer() {
+const Footer = () => {
   return (
     <footer className="bg-white border-t mt-8 border-gray-200">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
@@ -57,3 +57,4 @@ export default function Footer() {
     </footer>
   )
 }
+export default Footer
