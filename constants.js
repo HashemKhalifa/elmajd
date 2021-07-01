@@ -140,7 +140,7 @@ export const products = [
     category: { name: 'Essential oil', href: '#' },
     imageUrl: './products/jasmin-grand.jpeg',
     preview:
-      'Jasmine Grandiflorum Oil is extracted from Jasminum Gradiflora (synonym officinale) of the Oleaceae family. Extracted from the flower part of the plant through steam distillation process, Jasmine Grandiflorum Oil helps in toning up of body while helping for dry, greasy, irritated and sensitive skin. Jasmine oil helps to tone the skin for a younger look by maintaining the elasticity of skin. This oil, when burnt in oil burner or used with diffuser, lends a divine and spiritual aroma in the interiors that uplifts mind for a relaxed time. Moreover, this oil can also be applied over head for a lustrous shine',
+      'Jasmine Grandiflorum Oil is extracted from Jasminum Gradiflora (synonym officinale) of the Oleaceae family. Extracted from the flower part of the plant through steam distillation process, Jasmine Grandiflorum Oil helps in toning up of body while helping for dry, greasy, irritated and sensitive skin.',
   },
   {
     id: 16,
