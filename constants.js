@@ -33,7 +33,7 @@ export const products = [
     category: { name: 'Essential oil', href: '#' },
     imageUrl: './products/titgrain-mandarin.jpg',
     preview:
-      'Petitgrain mandarin provides a truly unique aromatic experience. This essential oil is obtained by steam distillation of the leaves and twigs of Citrus reticulata. Also the fruit produces mandarin essential oil in its varying forms..',
+      'Petitgrain mandarin provides a truly unique aromatic experience. This essential oil is obtained by steam distillation of the leaves and twigs of Citrus reticulata. Also the fruit produces mandarin essential oil in its varying forms.',
   },
   {
     id: 5,
