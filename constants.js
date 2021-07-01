@@ -3,7 +3,7 @@ export const products = [
     id: 1,
     title: 'Neroli Organic',
     href: './products/neroil',
-    category: { name: 'Essential oil', href: './products/neroil' },
+    category: { name: 'Essential oil', href: '#' },
     imageUrl: './products/Neroli.jpg',
     preview:
       'Neroli oil comes from the bitter orange tree, Citrus aurantium amara. The oil is steam-distilled from the delicate orange blossoms, which need to be handled with great care to avoid crushing the petals.',
@@ -12,7 +12,7 @@ export const products = [
     id: 2,
     title: 'Jasmine Absolute',
     href: './products/jasminoil',
-    category: { name: 'Essential oil', href: './products/jasminoil' },
+    category: { name: 'Essential oil', href: '#' },
     imageUrl: './products/elmajd-jasmin.jpeg',
     preview:
       'Jasmine Absolute is an incredible oil known for its distinctive, exotic floral aroma that is often used in perfumery. Its intoxicating smell is known as an aphrodisiac that increases feelings of love and romance.',
